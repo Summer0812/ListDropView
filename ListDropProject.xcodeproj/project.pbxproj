@@ -15,6 +15,7 @@
 		AEB3E1B81D4B56120084B664 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEB3E1B61D4B56120084B664 /* LaunchScreen.storyboard */; };
 		AEB3E1C31D4B56120084B664 /* ListDropProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB3E1C21D4B56120084B664 /* ListDropProjectTests.m */; };
 		AEB3E1CE1D4B56120084B664 /* ListDropProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB3E1CD1D4B56120084B664 /* ListDropProjectUITests.m */; };
+		AEB3E1DD1D4B59760084B664 /* ListDropView.m in Sources */ = {isa = PBXBuildFile; fileRef = AEB3E1DC1D4B59760084B664 /* ListDropView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		AEB3E1C91D4B56120084B664 /* ListDropProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ListDropProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEB3E1CD1D4B56120084B664 /* ListDropProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListDropProjectUITests.m; sourceTree = "<group>"; };
 		AEB3E1CF1D4B56120084B664 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEB3E1DB1D4B59760084B664 /* ListDropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListDropView.h; sourceTree = "<group>"; };
+		AEB3E1DC1D4B59760084B664 /* ListDropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListDropView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		AEB3E1A71D4B56120084B664 /* ListDropProject */ = {
 			isa = PBXGroup;
 			children = (
+				AEB3E1DE1D4B6AAE0084B664 /* ListDrop */,
 				AEB3E1AB1D4B56120084B664 /* AppDelegate.h */,
 				AEB3E1AC1D4B56120084B664 /* AppDelegate.m */,
 				AEB3E1AE1D4B56120084B664 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				AEB3E1CF1D4B56120084B664 /* Info.plist */,
 			);
 			path = ListDropProjectUITests;
+			sourceTree = "<group>";
+		};
+		AEB3E1DE1D4B6AAE0084B664 /* ListDrop */ = {
+			isa = PBXGroup;
+			children = (
+				AEB3E1DB1D4B59760084B664 /* ListDropView.h */,
+				AEB3E1DC1D4B59760084B664 /* ListDropView.m */,
+			);
+			name = ListDrop;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AEB3E1B01D4B56120084B664 /* ViewController.m in Sources */,
+				AEB3E1DD1D4B59760084B664 /* ListDropView.m in Sources */,
 				AEB3E1AD1D4B56120084B664 /* AppDelegate.m in Sources */,
 				AEB3E1AA1D4B56120084B664 /* main.m in Sources */,
 			);
